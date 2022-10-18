@@ -156,15 +156,45 @@ footer .footer-button{
 
 
 div#jumbotron{
-    background-color: #00008a;
-    height: 450px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
     width: 100%;
 }
 
 div#jumbotron .jumbo-content{
     width: 45%;
     height: 350px;
-    background-color: #ed81ed;
+    color: #ffffff;
+    text-align: center;
+}
+
+div#jumbotron .jumbo-content h1{
+    font-size: 3.5rem;
+    padding-top: 2rem;
 }
 
 
+div#jumbotron .jumbo-content p {
+    font-size: 1.2rem;
+    padding: 2rem;
+    line-height: 1.rem;
+}
+
+.big-button {
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 20px 20px;
+    padding: 1rem 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.white-b {
+    background-color: #ffffff;
+    color: #23272a;
+}
+
+.black-b {
+    background-color: #23272a;
+}
