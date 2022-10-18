@@ -76,7 +76,7 @@
 }
 
 .big-content img {
-   width: 100%;
+   width: 80%;
 }
 
 
@@ -97,7 +97,6 @@ header{
 }
 
 main section {
-    height: 650px;
     /* background-color: aqua; */
 }
 
@@ -106,10 +105,16 @@ footer{
 }
 
 main section.king {
-    height: 900px;
     /* background-color: aqua; */
 }
 
+div.big-content div {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+
+}
 
 nav.header-top{
     height: 45px;
@@ -199,8 +204,6 @@ footer .footer-button{
     font-size: 1.25rem;
 }
 
-
-
 div#jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -249,4 +252,5 @@ div#jumbotron .jumbo-content p {
 
 .lilac-b {
     background-color: #8ea1e1;
+    color: #23272a;
 }
