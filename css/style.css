@@ -60,7 +60,31 @@
 
 
 .bg-grey{
-    background-color: #d2d2d2;
+    background-color: #f6f6f6;
+}
+
+
+.big-content h1 {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+    padding-top: 5rem;
+}
+
+.big-content p {
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.big-content img {
+   width: 100%;
+}
+
+
+.big-content h2 {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    text-align: center;
+    background-image: url(../img/stars.svg);
 }
 
 
@@ -125,9 +149,9 @@ nav ul.main-menu li{
 
 
 div.big-content{
-    background-color: #228a22;
-    height: 800px;
     width: 100%;
+    text-align: center;
+
 }
 
 footer{
@@ -203,6 +227,8 @@ div#jumbotron .jumbo-content p {
     line-height: 1.rem;
 }
 
+/*Buttons setup*/
+
 .big-button {
     font-size: 1.2rem;
     text-align: center;
@@ -219,4 +245,8 @@ div#jumbotron .jumbo-content p {
 
 .black-b {
     background-color: #23272a;
+}
+
+.lilac-b {
+    background-color: #8ea1e1;
 }
