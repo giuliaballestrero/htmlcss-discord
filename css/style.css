@@ -21,10 +21,6 @@
     height: 100%;
 }
 
-.crazy-bordered{
-    border: 2px dashed black;
-}
-
 
 .col{
     height: 480px;
@@ -47,7 +43,8 @@
 
 
 header{
-    background-color: #add8e6;
+    background-color:#3161e0;
+    color: #ffffff;
     align-items: center;
     /* height: 80px; */
     flex-direction: column;
@@ -78,20 +75,30 @@ nav div.logo,
 nav div.login{
     flex-basis: 20%;
     /* width: 20%; */
-    background-color: orange;
     padding:.75rem;
 
 }
 
+nav div.login{
+    text-align: right;
+}
+
+nav div.login span {
+    background-color: #ffffff;
+    color: #23272a;
+    padding: 0.5rem;
+    border-radius: 15px 15px 15px 15px;
+}
+
 nav ul.main-menu{
     flex-basis: 80%;
-    background-color: orange;
     padding:.75rem;
     text-align: center;
 }
 
 nav ul.main-menu li{
     display: inline;
+    padding-left: 1.5rem;
 }
 
 
