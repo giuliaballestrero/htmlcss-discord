@@ -21,20 +21,36 @@
     height: 100%;
 }
 
-
 .col{
     height: 480px;
 }
 
 .big-col{
-    width: 65%;
-    background-color: #1e8ffe;
+    width: 60%;
+    text-align: center;
+    margin-right: 4rem;
+    position: relative;
+}
 
+.big-col img {
+    position: absolute;
+    right: 20px;
 }
 
 .small-col{
-    width: 35%;
-    background-color: #febfca;
+    width: 40%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.small-col h1{
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.small-col p{
+    font-size: 1.3rem;
+  
 }
 
 .bg-grey{
@@ -51,7 +67,7 @@ header{
 }
 
 main section {
-    height: 600px;
+    height: 650px;
     /* background-color: aqua; */
 }
 
