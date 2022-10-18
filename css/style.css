@@ -160,48 +160,65 @@ div.big-content{
 }
 
 footer{
-    padding: 2rem;
+    padding: 4rem;
+    color: #ffffff;
 }
 
 footer section.footer-top{
     height: 500px;
-    background-color: #7fffd4;
 }
 
 footer section.footer-top aside{
     width: 30%;
     height: 100%;
-    background-color: #f08080;
 
 }
 
 footer section.footer-top nav{
     width: 70%;
     height: 100%;
-    background-color: #20b2aa;
 }
 
 footer .footer-top nav ul{
     width: 25%;
-    height: 100%;
-    border: 2px dashed white;
 }
 
 footer hr{
-    margin: 2rem 0;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    color: #7289da;
 }
 
 footer section.footer-bottom{
     height: 100px;
-    background-color: #7fffd4;
     justify-content: space-between;
 }
 
 footer .footer-logo,
 footer .footer-button{
-    background-color: rgb(246, 136, 154);
     padding: .5rem;
     font-size: 1.25rem;
+}
+
+footer .mini-logo {
+    width: 1.5rem;
+}
+
+footer nav ul {
+    list-style-type: none;
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+
+footer nav ul li:first-child {
+    color: #7289da;
+}
+
+footer aside h3 {
+    color: #7289da;
+    font-size: 2rem;
+    padding-bottom: 2rem;
 }
 
 div#jumbotron{
@@ -254,3 +271,16 @@ div#jumbotron .jumbo-content p {
     background-color: #8ea1e1;
     color: #23272a;
 }
+
+.footer-button {
+    background-color: #8ea1e1;
+    color: #ffffff;
+}
+
+.fa {
+    margin-top: 2rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline;
+  }
