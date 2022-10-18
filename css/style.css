@@ -53,6 +53,12 @@
   
 }
 
+#wizard-img {
+    position: absolute;
+    left: 40px;
+}
+
+
 .bg-grey{
     background-color: #d2d2d2;
 }
